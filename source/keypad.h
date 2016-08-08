@@ -14,11 +14,7 @@
 #ifndef __KEYPAD_HPP__
 #define __KEYPAD_HPP__
 
-#include "fio.h"
-#include "delay.h"
-
-extern FIO io;
-extern DELAY delay;
+#include "common_func.h"
 
 const uint8_t keyCode[4][4] = {{15,14,13,12},{11,9,6,3},{0,8,5,2},{10,7,4,1}};	
 
