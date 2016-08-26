@@ -29,7 +29,7 @@ void KEYPAD::init(PORT_PIN_ARRAY Pnum1, PORT_PIN_ARRAY Pnum2, PORT_PIN_ARRAY Pnu
 		pin[6] = Pnum7;
 		pin[7] = Pnum8;
 		
-		io.mode(INPUT, pin[0], pin[1], pin[2], pin[3]);
+		io.mode(INPUT_PULLUP, pin[0], pin[1], pin[2], pin[3]);
 		io.mode(OUTPUT, pin[4], pin[5], pin[6], pin[7]);
 }
 
